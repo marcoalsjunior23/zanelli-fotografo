@@ -126,9 +126,9 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'Registros fotográficos feitos nas pistas, adrenalina, máquinas e momentos únicos.',
       local: 'Brasil', data: '2026', equipamento: 'NikonD5100',
       photos: [
-        { src:'img/WhatsApp Image 2026-05-21 at 20.58.16.jpeg', title:'Na Pista', info:'Kartódromo San Marino' },
-        { src:'img/1000280627.jpg', title:'Detalhe', info:'Kartódromo San Marino' },
-        { src:'img/1000280628.jpg', title:'Ação', info:'Kartódromo San Marino' },
+        { src:'img/WhatsApp Image 2026-05-21 at 20.58.16.jpeg', title:'Foto 1', info:'Kartódromo San Marino' },
+        { src:'img/1000280627.jpg', title:'Foto 2', info:'Kartódromo San Marino' },
+        { src:'img/1000280628.jpg', title:'Foto 3', info:'Kartódromo San Marino' },
       ]
     },
     // Card 3 — Retratos/Ensaios — 3 fotos internas
