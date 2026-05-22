@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'Filmmaking', cat: 'Filmmaking',
       desc: 'Registros gravados até o momento, narrativas visuais com atenção ao movimento e à luz.',
-      local: 'Brasil', data: '2026', equipamento: 'NikonD5100',
+      local: 'Brasil', data: '2026', equipamento: 'Sony NX5R',
       photos: [
         { src:'img/1000280925.mp4', title:'Vídeo 1', info:'Produção · Nikon D5100', type:'video' },
         { src:'img/1000280929.mp4', title:'Vídeo 2', info:'Produção · Nikon D5100', type:'video' },
