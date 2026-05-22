@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="icon.ico" type="image/x-icon">
+  <title>Daniel Zanelli</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Orbs animados de fundo -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- NAV — pill flutuante centralizado -->
+  <nav id="navbar">
+    <!-- pill desktop: centralizado na tela -->
+    <div class="nav-pill" id="navPill">
+      <ul class="nav-links">
+        <li><a href="#sobre">sobre</a></li>
+        <li><a href="#projetos">projetos</a></li>
+        <li><a href="#servicos">serviços</a></li>
+        <li><a href="#contato" class="nav-cta"><i class="fab fa-whatsapp"></i> contato</a></li>
+      </ul>
+    </div>
+    <!-- hamburger flutuante - só aparece no mobile, fora da pill -->
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#sobre" class="mobile-link">sobre</a>
+      <a href="#projetos" class="mobile-link">projetos</a>
+      <a href="#servicos" class="mobile-link">serviços</a>
+      <a href="#contato" class="mobile-link"><i class="fab fa-whatsapp"></i> contato</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1800&q=80" alt="Hero" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">Fotógrafo & Filmmaker</p>
+      <h1 class="hero-title reveal-up delay-1">Daniel<br><em>Zanelli</em></h1>
+      <p class="hero-sub reveal-up delay-2">Contando histórias<br>através das lentes.</p>
+      <a href="#projetos" class="hero-btn reveal-up delay-3">Ver projetos</a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="container-fluid px-0">
+      <div class="sobre-grid">
+        <div class="sobre-img-wrap reveal-left">
+          <img src="img/WhatsApp Image 2026-05-21 at 20.58.15.jpeg" alt="Daniel Zanelli" />
+          <div class="sobre-tag">Daniel Zanelli - 18 anos</div>
+        </div>
+        <div class="sobre-text reveal-right">
+          <p class="section-label">sobre mim</p>
+          <h2>Cada clique<br><em>com intenção.</em></h2>
+          <p class="sobre-bio">
+            Sou apaixonado por automobilismo e registrar momentos e memórias importantes para os outros especilizado em eventos automotivos, 
+            também faço cobertura de shows, casamentos, formatura entre outros eventos.
+          </p>
+          <div class="sobre-stats">
+            <div class="stat-item">
+              <span class="stat-num" data-target="20" data-prefix="+">0</span>
+              <span class="stat-label">projetos</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="1">0</span>
+              <span class="stat-label">ano de experiência</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="60" data-prefix="+">0</span>
+              <span class="stat-label">fotos entregues</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="projetos-section">
+    <div class="projetos-outer" id="projetosOuter">
+      <div class="projetos-sticky-wrap" id="projetosWrap">
+        <div class="projetos-header reveal-up">
+          <p class="section-label">portfólio</p>
+          <h2>Projetos<br><em>em destaque</em></h2>
+        </div>
+        <div class="projetos-track" id="projetosTrack">
+
+          <article class="projeto-card" data-index="0">
+            <div class="card-img">
+              <img src="img/WhatsApp Image 2026-05-21 at 20.58.14.jpeg" alt="Ensaio urbano" loading="lazy" />
+            </div>
+            <div class="card-info">
+              <span class="card-cat">Fotografias</span>
+              <h3>Fotos Aesthetic</h3>
+              <p>Retratos feitos ao longo da minha vida</p>
+            </div>
+          </article>
+
+          <article class="projeto-card" data-index="1">
+            <div class="card-img">
+              <img src="img/filmmaking.jpeg" alt="Ensaio urbano" loading="lazy" />
+            </div>
+            <div class="card-info">
+              <span class="card-cat">Filmmaking</span>
+              <h3>Filmmaking</h3>
+              <p>Registros gravados até o momento</p>
+            </div>
+          </article>
+
+          <article class="projeto-card" data-index="2">
+            <div class="card-img">
+              <img src="img/WhatsApp Image 2026-05-21 at 20.58.16.jpeg" alt="Evento" loading="lazy" />
+            </div>
+            <div class="card-info">
+              <span class="card-cat">Fotografias</span>
+              <h3>Automotivo</h3>
+              <p>Registros fotográficos feitos nas pistas</p>
+            </div>
+          </article>
+
+          <article class="projeto-card" data-index="3">
+            <div class="card-img">
+              <img src="img/WhatsApp Image 2026-05-21 at 20.58.16 (1).jpeg" alt="Silhuetas" loading="lazy" />
+            </div>
+            <div class="card-info">
+              <span class="card-cat">Fotografias</span>
+              <h3>Retratos/Ensaios</h3>
+              <p>Fotografias de restratos e ensaios até agora</p>
+            </div>
+          </article>
+
+
+          <!-- Card Behance -->
+          <a href="https://behance.net/danielzanelli_" target="_blank" class="projeto-card card-behance">
+            <div class="card-behance-inner">
+              <i class="fab fa-behance"></i>
+              <span>Ver todos os projetos</span>
+              <small>Behance</small>
+            </div>
+          </a>
+
+        </div><!-- /track -->
+        <div class="projetos-progress-wrap">
+          <div class="projetos-progress-bar" id="progressBar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX dos projetos -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lbClose"><i class="fas fa-times"></i></button>
+    <div class="lb-content" id="lbContent"></div>
+  </div>
+
+  <!-- VIDEO PLAYER FULLSCREEN -->
+  <div class="video-player" id="videoPlayer">
+    <button class="video-close" id="videoClose"><i class="fas fa-times"></i></button>
+    <video id="videoEl" controls playsinline></video>
+  </div>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="servicos-section">
+    <div class="container">
+      <div class="servicos-header reveal-up">
+        <p class="section-label">o que ofereço</p>
+        <h2>Serviços</h2>
+      </div>
+      <div class="row g-4 servicos-grid">
+        <div class="col-md-6 col-lg-4">
+          <div class="servico-card reveal-up delay-1">
+            <div class="servico-icon"><i class="fas fa-car"></i></div>
+            <h3>Eventos Automotivos</h3>
+            <p>Captura de adrenalina, máquinas e momentos únicos em pistas, salões e encontros automotivos.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="servico-card reveal-up delay-2">
+            <div class="servico-icon"><i class="fas fa-music"></i></div>
+            <h3>Shows</h3>
+            <p>Fotografia e vídeo em shows e festivais, luzes, palco e a energia que só o ao vivo tem.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="servico-card reveal-up delay-3">
+            <div class="servico-icon"><i class="fas fa-ring"></i></div>
+            <h3>Casamentos</h3>
+            <p>Registro delicado e completo do seu dia, do making of à festa, com atenção a cada detalhe.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="servico-card reveal-up delay-4">
+            <div class="servico-icon"><i class="fas fa-building"></i></div>
+            <h3>Imóveis</h3>
+            <p>Fotografia arquitetônica e de interiores que valoriza cada ambiente e atrai mais compradores.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="servico-card reveal-up delay-5">
+            <div class="servico-icon"><i class="fas fa-camera"></i></div>
+            <h3>Cobertura de Eventos</h3>
+            <p>Do corporativo ao social, registro completo e profissional de qualquer tipo de evento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contato-section">
+    <div class="contato-bg">
+      <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=1800&q=80" alt="" />
+      <div class="contato-overlay"></div>
+    </div>
+    <div class="contato-content reveal-up">
+      <p class="section-label light">vamos trabalhar juntos</p>
+      <h2>Tem um projeto<br><em>em mente?</em></h2>
+      <p class="contato-sub">Me manda uma mensagem! Sem formalidade, apenas uma conversa.</p>
+      <div class="contato-links">
+        <a href="https://wa.me/5519991109230" target="_blank" class="contato-btn">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://instagram.com/danielzanelli_" target="_blank" class="contato-btn secondary">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+      </div>
+      <p class="contato-email">ou por e-mail: <a href="mailto:contatodanielzanelli@gmail.com">contatodanielzanelli@gmail.com</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-credit">Site criado por <span>Marco Júnior</span></p>
+      <p class="footer-copy">© 2026 Daniel Zanelli. Todos os direitos reservados.</p>
+      <div class="footer-socials">
+        <a href="https://instagram.com/danielzanelli_" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://behance.net/danielzanelli_" target="_blank" aria-label="Behance"><i class="fab fa-behance"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
